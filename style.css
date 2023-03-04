@@ -367,4 +367,7 @@ td img{
     .cart-info p{
         display: none;
     }
+	.col-2 img{
+        width: 90%;
+    }
 }
