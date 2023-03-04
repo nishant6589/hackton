@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>OrderNow</title>
+        <link rel="icon" href="D:\Web Development\Hackathon Web 2023 march\Images\logo1.jpg">
+    </head>
+    <body>
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html"><img src="images/logo1.jpg"
+                           height="75px" width="100px" alt="website logo"></a>
+                </div>
+                <nav>
+                    <ul id="Menuitem">
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="D:\Web Development\Hackathon Web 2023 march\restaurants.html">RESTAURANTS</a></li>
+                        <li><a href="">CONTACT</a></li>
+                        <li><a href="#">ACCOUNT</a></li>
+                    </ul>
+                </nav>
+                <a href="cat.html"><img src="images/cart.png" width="30px"
+                        height="30px" alt="cart image"></a>
+                <img src="images/menu.png" class="menu-icon"
+                    onclick="menutoggle()">
+            </div>
+        </div>
+        <!--Cart Page-->
+        <div class="small-container   cart-page">
+
+            <table>
+                <tr>
+                    <th>Product</th>
+                    <th>Quantity</th>
+                    <th>Sub total</th>
+                </tr>
+                <tr>
+                    <td> <div class="cart-info">
+                        <img src="D:\Web Development\Hackathon Web 2023 march\Images\fries.jpeg.jpg" alt="">
+                        <div>
+                            <p>Fries frenchy</p>
+                            <small>Price  : 120.00<br> </small>
+                            <a href="" class="">Remove</a>
+                        </div>
+                    </div></td>
+                    <td><input type="number" value="1" ></td>
+                    <td>Rs .50.00</td>
+                </tr>
+                <tr>
+                    <td> <div class="cart-info">
+                        <img src="D:\Web Development\Hackathon Web 2023 march\Images\dosa.jpg" alt="">
+                        <div>
+                            <p>Masala Dosa</p>
+                            <small>Price  : 58.00 <br> </small>
+                            <a href="" class="">Remove</a>
+                        </div>
+                    </div></td>
+                    <td><input type="number" value="1" ></td>
+                    <td>Rs .50.00</td>
+                </tr>
+                <tr>
+                    <td> <div class="cart-info">
+                        <img src="D:\Web Development\Hackathon Web 2023 march\Images\egg-biryani.jpg" alt="">
+                        <div>
+                            <p>Egg Briyani</p>
+                            <small>Price  : 130.00 <br> </small>
+                            <a href="" class="">Remove</a>
+                        </div>
+                    </div></td>
+                    <td><input type="number" value="1" ></td>
+                    <td>Rs .50.00</td>
+                </tr>
+            </table>
+        
+            <div class="total-price">
+                <table>
+                    <tr>
+                        <td>Subtotal</td>
+                        <td>Rs .128.00</td>
+                    </tr>
+                    <tr>
+                        <td>tax</td>
+                        <td>Rs .12.80</td>
+                    </tr>
+                    <tr>
+                        <td>total</td>
+                        <td>Rs .140.80</td>
+                    </tr>
+                </table>
+            </div>
+        
+        
+        </div>
+        
+        
+        
+        
+        
+            
+
+        <!--footer-->
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col-1">
+                        <h3>Download our app</h3>
+                        <p>Download App from Google Playstore or from ios store</p>
+                        <div class="app-logo">
+                            <img src="images/play-store.png" alt="">
+                            <img src="images/app-store.png" alt="">
+                        </div>
+                    </div>
+                    <div class="footer-col-2">
+                        <img src="images/logo-white.png" alt="">
+                        <p>Our Purpose is to avail delicious food  <br> at any place and time  to all food lovers</p>
+                    </div>
+                    
+                    <div class="footer-col-3">
+                        <h3>Follow us</h3>
+                        <ul>
+                            <li>Facebook</li>
+                            <li>Twitter</li>
+                            <li>Youtube</li>
+                            <li>Instagram</li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+                <p class="copyright">Copyright--------------<strong>Nishant and Uday</strong></p>
+            </div>
+        </div>
+    </body>
+</html>
